@@ -1,0 +1,5 @@
+Realiza una clase Temperatura, la cual convierta grados Celcius a Farenheit y viceversa. Para ello crea
+dentro de la clase dos metodos para la conversion de tales. (La clase solo va a tener dos metodos estaticos)
+
+Crearemos un programa con un menu para decidir introduciendo un numero si convertimos de celsius a farenheit
+o viceversa

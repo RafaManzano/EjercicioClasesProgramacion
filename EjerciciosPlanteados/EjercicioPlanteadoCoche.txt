@@ -1,0 +1,22 @@
+Crea una clase Coche que tenga las siguientes caracteristicas:
+	- Velocidad: Tiene que ser privada con un metodo consultable y un metodo modificable
+	- Color: Tiene que ser privada con un metodo consultable y un metodo modificable
+	- NumeroDeBastidor: Tiene que ser privada con un metodo consultable
+	- Ademas dos metodos añadidos uno para acelerar y otro para frenar
+	
+En nuestro programa crearemos dos coches, uno de ellos con velocidad 50, color rojo y numero de bastidor 0432820
+y otro por defecto, a lo que nuestro segundo coche aceleraremos 70 km y al primero frenaremos 10.
+Luego mostraremos sus velocidades de nuevo para comprobar si se han modificado.
+Ademas comparando las velocidades, diremos quien de los dos actualmente es mas rapido
+
+Inicio
+	CreacionCoche1
+	CreacionCoche2
+	AcelerarCoche2
+	FrenarCoche1
+	ComprobarVelocidadCoches
+	Si VelocidadCoche1 es mayor a VelocidadCoche2
+		Coche1 es mas rapido
+	Sino
+		Coche2 es mas rapido
+Fin
