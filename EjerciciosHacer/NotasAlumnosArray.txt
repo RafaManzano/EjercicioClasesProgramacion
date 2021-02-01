@@ -1,0 +1,9 @@
+Crea un programa con 10 notas (Array[int]) de los alumnos de clase, con ello,
+crearemos un menu que contenga lo siguiente
+	1 - Mostrar las notas, tal cual estan 
+	2 - Ordenarlas por mayor
+	3 - Ordenarlas por menor
+	4 - Mostrar la puntuacion mas alta
+	5 - Mostrar la puntuacion mas baja
+	
+Para la ordenacion, lo mejor seria buscar el metodo burbuja para Java
