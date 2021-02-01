@@ -1,0 +1,95 @@
+En este programa haremos un combate entre dos monstruos imaginarios, ellos tendran vida, ataque y defensa
+Tienen que luchar hasta que alguno de ellos se queden sin vida, ganara aquel que se mantenga en pie del combate.
+Se mostrara una lista con las partidas que ha ganado el jugador
+
+/*
+ * Nombre del programa: BatallaDeTitanes
+ * Analisis
+ * 	Entrada: - nombreJugador //Nombre del jugador
+ * 			 - nombreRival //Nombre del rival
+ * 			 - vidaJugador //Vida del jugador
+ * 			 - vidaRival //Vida del rival
+ * 			 - ataqueJugador //Ataque del jugador
+ * 			 - ataqueRival //Ataque del rival
+ * 			 - defensaJugador //Defensa del jugador
+ * 			 - defensaRival //Defensa del rival
+ *   		 - listaPartidasGanadas //Una lista con las partidas ganadas y perdidas
+ *
+ * 	Salida: - Mensajes con el usuario
+ * 			- Eco de los datos
+ * 			- Ganador del combate o empate
+ *
+ * 	Requisitos: - El nombre del jugador no puede ser vacio
+ * 			    - El nombre del rival no puede ser vacio
+ * 			    - La vida del jugador esta comprendida entre 10 a 50
+ * 			    - La vida del rival esta comprendida entre 10 a 50
+ * 			    - El ataque del jugador esta comprendida entre 1 a 10
+ * 			    - El ataque del rival esta comprendida entre 1 a 10
+ * 			    - La defensa del jugador esta comprendida entre 1 a 10
+ * 			    - La defensa del rival esta comprendida entre 1 a 10
+ *
+ * Level 0
+ * Inicio
+ * 	DeclaracionVariables
+ * 	Mientras algunos de ellos tengan vida
+ *    Combate
+ * Fin Mientras
+ * Comprobacion del ganador
+ * MostrarPartidasGanadas
+ * Fin
+ *
+ *
+ * Combate
+ * Inicio
+ * MenuJugador
+ * 	Segun(decision del jugador)
+ *	 en caso de Ataque
+ * 		Ataque
+ *   en caso de Defensa
+ *		Defensa
+ * 	FinSegun
+ * Fin
+ *
+ *
+ * Ataque
+ * Inicio
+ * Si el ataque del jugador es mas que la defensa del rival
+ *	  rival pierde vida
+ * Sino Si es igual
+ *		Nadie pierde vida
+ *		Sino
+ *			El jugador pierde vida
+ * FinSi
+ * Fin
+ *
+ * Defensa
+ * Inicio
+ * Si la defensa del jugador es mas que el ataque del rival
+ *	  rival pierde vida
+ * Sino Si es igual
+ *		Nadie pierde vida
+ *		Sino
+ *			El jugador pierde vida
+ * FinSi
+ * Fin
+ *
+ *
+ * ComprobacionDelGanador
+ * Inicio
+ * Si la vida del jugador es mayor a 0
+ *	  Jugador Gana
+ * Sino Si la vida del rival es mayor a 0
+ *		Rival gana
+ *		Sino
+ *			Hay un empate
+ * FinSi
+ * Fin
+ *
+ *
+ * MostrarPartidasGanadas
+ * Inicio
+ * PintarLista
+ * Fin
+ */
+ 
+ //En caso de atacar el jugador, el rival se defiende y si el jugador se defiende el rival atacara
